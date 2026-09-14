@@ -36,7 +36,7 @@ export default function Location() {
             <div>
               <div className="w-full h-48 rounded-2xl overflow-hidden border border-gold/30 mb-6 relative group shadow-lg">
                 <img
-                  src="/images/st_marys_church_kalayanthani.png"
+                  src={`${import.meta.env.BASE_URL}images/st_marys_church_kalayanthani.png`}
                   alt="St. Mary's Church Kalayanthani"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
