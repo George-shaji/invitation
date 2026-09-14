@@ -5,35 +5,35 @@ import { Church, Utensils, Shirt, Car, Calendar, Sparkles, MapPin } from 'lucide
 export default function EventDetails() {
   const timeline = [
     {
-      time: "09:30 AM",
+      time: "11:00 AM",
       title: "Guest Arrival & Welcome",
-      subtitle: "St. Mary's Cathedral Main Foyer",
-      description: "Warm welcome, signing the baptism memory book, and gathering inside the cathedral chapel.",
+      subtitle: "St. Mary's Church Kalayanthani",
+      description: "Warm welcome, signing the baptism memory book, and gathering inside St. Mary's Church Kalayanthani.",
       icon: MapPin,
     },
     {
-      time: "10:00 AM",
+      time: "11:30 AM",
       title: "Holy Baptism Ceremony",
-      subtitle: "Sacred Altar of St. Mary's Cathedral",
-      description: "The sacred sacrament of Holy Baptism for baby Jeffin Jestin, accompanied by holy choir hymns.",
+      subtitle: "Sacred Altar of St. Mary's Church Kalayanthani",
+      description: "The sacred sacrament of Holy Baptism for baby Jeffin Jestine, accompanied by holy choir hymns.",
       icon: Church,
     },
     {
       time: "12:30 PM",
       title: "Celebratory Feast & Reception",
-      subtitle: "The Grand Royal Ballroom, Kochi",
-      description: "Join us for lunch, celebratory cake cutting, fellowship, and blessings with family and friends.",
+      subtitle: "St. Mary's Parish Hall, Kalayanthani",
+      description: "Join us for celebratory feast, cake cutting, fellowship, and blessings with family and friends at St. Mary's Parish Hall.",
       icon: Utensils,
     },
   ];
 
   // Google Calendar Link generator
   const createGoogleCalendarLink = () => {
-    const title = encodeURIComponent("Holy Baptism of Jeffin Jestin");
-    const details = encodeURIComponent("You are cordially invited to celebrate the Holy Baptism of Jeffin Jestin, son of Jestin Joy and Silpa Jestin.");
-    const location = encodeURIComponent("St. Mary's Cathedral, Kochi, Kerala");
-    const start = "20261018T043000Z"; // 10:00 AM IST in UTC
-    const end = "20261018T093000Z";
+    const title = encodeURIComponent("Holy Baptism of Jeffin Jestine");
+    const details = encodeURIComponent("You are cordially invited to celebrate the Holy Baptism of Jeffin Jestine, son of Jestine Joy and Silpa Jestine.");
+    const location = encodeURIComponent("St. Mary's Church Kalayanthani, Kalayanthani");
+    const start = "20261010T060000Z"; // 11:30 AM IST in UTC
+    const end = "20261010T110000Z";
     return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${start}/${end}&details=${details}&location=${location}`;
   };
 
@@ -128,9 +128,9 @@ export default function EventDetails() {
             </div>
             <div>
               <h4 className="font-cinzel text-base font-bold text-white mb-1">Dress Code</h4>
-              <p className="text-gold text-xs font-cinzel uppercase tracking-wider mb-2">Elegant Formal • White & Gold Accents</p>
+              <p className="text-gold text-xs font-cinzel uppercase tracking-wider mb-2">White • Off White • Light Blue 🩵 • Gold Shades</p>
               <p className="text-xs text-grayText leading-relaxed font-poppins">
-                We kindly invite our guests to wear formal attire. Subtle white, ivory, champagne, and gold hues are warmly appreciated.
+                We kindly invite our guests to wear elegant attire in white, off white, light blue 🩵, or gold shades.
               </p>
             </div>
           </motion.div>
@@ -147,9 +147,9 @@ export default function EventDetails() {
             </div>
             <div>
               <h4 className="font-cinzel text-base font-bold text-white mb-1">Parking & Valet</h4>
-              <p className="text-gold text-xs font-cinzel uppercase tracking-wider mb-2">Complimentary Valet at Cathedral</p>
+              <p className="text-gold text-xs font-cinzel uppercase tracking-wider mb-2">St. Mary's Church Kalayanthani Parking</p>
               <p className="text-xs text-grayText leading-relaxed font-poppins">
-                Ample reserved parking and valet assistance are available directly at the cathedral grounds and reception ballroom.
+                Ample reserved parking available directly at St. Mary's Church Kalayanthani parking grounds.
               </p>
             </div>
           </motion.div>

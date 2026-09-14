@@ -16,16 +16,16 @@ export default function Footer() {
         </div>
 
         <h3 className="font-cinzel text-xl sm:text-2xl font-bold text-gold-gradient mb-2">
-          Jeffin Jestin's Holy Baptism
+          Jeffin Jestine's Holy Baptism
         </h3>
 
         <p className="font-garamond italic text-grayText text-base sm:text-lg max-w-md mx-auto mb-6">
-          "Thank you for being a part of baby Jeffin's sacred beginning and sharing your warmth and prayers with our family."
+          "Thank you for being a part of baby Jeffin Jestine's sacred beginning and sharing your warmth and prayers with our family."
         </p>
 
         {/* Family Signature */}
         <div className="text-xs font-cinzel text-gold tracking-widest uppercase mb-8">
-          With Love, Jestin Joy & Silpa Jestin
+          With Love, Jestine Joy & Silpa Jestine
         </div>
 
         {/* Back to top button */}

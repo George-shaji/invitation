@@ -85,8 +85,8 @@ export default function Rsvp() {
 
               <p className="font-garamond italic text-xl text-grayText max-w-md mx-auto">
                 {formData.attendance === 'attending'
-                  ? "We are overjoyed to celebrate baby Jeffin Jestin's baptism with you!"
-                  : "Thank you for sending your prayers and blessings for baby Jeffin Jestin."}
+                  ? "We are overjoyed to celebrate baby Jeffin Jestine's baptism with you!"
+                  : "Thank you for sending your prayers and blessings for baby Jeffin Jestine."}
               </p>
 
               <div className="pt-4">
@@ -201,7 +201,7 @@ export default function Rsvp() {
               <div className="space-y-2">
                 <label className="text-xs uppercase tracking-wider font-cinzel text-gold font-semibold flex items-center gap-1.5">
                   <MessageSquare className="w-3.5 h-3.5" />
-                  <span>Blessing / Message for Baby Jeffin</span>
+                  <span>Blessing / Message for Baby Jeffin Jestine</span>
                 </label>
                 <textarea
                   name="message"

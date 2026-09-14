@@ -56,7 +56,7 @@ export default function Hero({ onOpenRSVP, onReplayEnvelope }) {
         >
           <div className="shimmer-line w-3/4 mx-auto mb-4" />
           <h1 className="font-cinzel text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-gold-gradient drop-shadow-2xl">
-            Jeffin Jestin
+            Jeffin Jestine
           </h1>
           <div className="shimmer-line w-3/4 mx-auto mt-4" />
         </motion.div>
@@ -68,7 +68,7 @@ export default function Hero({ onOpenRSVP, onReplayEnvelope }) {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="font-garamond italic text-grayText text-lg md:text-xl my-4"
         >
-          Beloved son of <span className="text-white font-normal">Jestin Joy</span> & <span className="text-white font-normal">Silpa Jestin</span>
+          Beloved son of <span className="text-white font-normal">Jestine Joy</span> & <span className="text-white font-normal">Silpa Jestine</span>
         </motion.p>
 
         {/* Quick Date, Time, Location Cards */}
@@ -83,19 +83,19 @@ export default function Hero({ onOpenRSVP, onReplayEnvelope }) {
             <Calendar className="w-5 h-5 text-gold mb-2" />
             <span className="text-[10px] text-grayText uppercase tracking-widest font-cinzel">Date</span>
             <span className="font-cinzel font-semibold text-sm sm:text-base text-white mt-0.5">
-              October 18, 2026
+              October 10, 2026
             </span>
-            <span className="text-xs text-gold/80 font-poppins mt-0.5">Sunday</span>
+            <span className="text-xs text-gold/80 font-poppins mt-0.5">Saturday</span>
           </div>
 
           {/* Time Card */}
           <div className="glass-card glass-card-hover p-4 rounded-2xl flex flex-col items-center justify-center text-center">
             <Clock className="w-5 h-5 text-gold mb-2" />
-            <span className="text-[10px] text-grayText uppercase tracking-widest font-cinzel">Holy Mass</span>
+            <span className="text-[10px] text-grayText uppercase tracking-widest font-cinzel">Holy Baptism</span>
             <span className="font-cinzel font-semibold text-sm sm:text-base text-white mt-0.5">
-              10:00 AM IST
+              11:30 AM IST
             </span>
-            <span className="text-xs text-gold/80 font-poppins mt-0.5">Ceremony Starts</span>
+            <span className="text-xs text-gold/80 font-poppins mt-0.5">Welcome at 11:00 AM</span>
           </div>
 
           {/* Location Card */}
@@ -103,9 +103,9 @@ export default function Hero({ onOpenRSVP, onReplayEnvelope }) {
             <MapPin className="w-5 h-5 text-gold mb-2" />
             <span className="text-[10px] text-grayText uppercase tracking-widest font-cinzel">Venue</span>
             <span className="font-cinzel font-semibold text-xs sm:text-sm text-white mt-0.5 line-clamp-1">
-              St. Mary's Cathedral
+              St. Mary's Church
             </span>
-            <span className="text-xs text-gold/80 font-poppins mt-0.5">Kochi, Kerala</span>
+            <span className="text-xs text-gold/80 font-poppins mt-0.5">Kalayanthani</span>
           </div>
         </motion.div>
 

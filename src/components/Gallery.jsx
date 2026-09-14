@@ -8,7 +8,7 @@ export default function Gallery() {
   const images = [
     {
       src: "/images/baby_portrait.png",
-      title: "Baby Jeffin Jestin",
+      title: "Baby Jeffin Jestine",
       caption: "Wrapped in innocence & holy baptism grace"
     },
     {
@@ -17,8 +17,8 @@ export default function Gallery() {
       caption: "Symbolizing the light of Christ guiding his path"
     },
     {
-      src: "/images/church_interior.png",
-      title: "St. Mary's Cathedral",
+      src: "/images/st_marys_church_kalayanthani.png",
+      title: "St. Mary's Church Kalayanthani",
       caption: "The sacred venue where the baptismal vow takes place"
     },
     {
@@ -32,9 +32,9 @@ export default function Gallery() {
       caption: "A timeless memory of holy devotion"
     },
     {
-      src: "/images/church_interior.png",
-      title: "Golden Hour Glow",
-      caption: "Sunlight streaming through stained glass aisles"
+      src: "/images/st_marys_church_kalayanthani.png",
+      title: "Night Illumination Glow",
+      caption: "St. Mary's Church Kalayanthani glowing in divine grace"
     }
   ];
 

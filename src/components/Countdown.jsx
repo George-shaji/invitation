@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { Clock, Sparkles } from 'lucide-react';
 
 export default function Countdown() {
-  // Baptism Date: October 18, 2026 at 10:00 AM IST
-  const targetDate = new Date('2026-10-10T10:00:00+05:30').getTime();
+  // Baptism Date: October 10, 2026 at 11:30 AM IST
+  const targetDate = new Date('2026-10-10T11:30:00+05:30').getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -82,7 +82,7 @@ export default function Countdown() {
         </div>
 
         <p className="font-garamond italic text-grayText text-base mt-6">
-          Saturday, October 10, 2026 • 10:00 AM • St. Mary's Cathedral, Kochi
+          Saturday, October 10, 2026 • 11:30 AM • St. Mary's Church, Kalayanthani
         </p>
 
       </div>

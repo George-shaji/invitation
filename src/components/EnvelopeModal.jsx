@@ -43,7 +43,7 @@ export default function EnvelopeModal({ isOpen, onOpen }) {
               The Holy Baptism
             </h2>
             <p className="font-garamond italic text-grayText text-lg mt-1">
-              of Jeffin Jestin
+              of Jeffin Jestine
             </p>
           </motion.div>
 
@@ -71,13 +71,13 @@ export default function EnvelopeModal({ isOpen, onOpen }) {
               initial={{ y: 0, scale: 0.95 }}
               animate={isOpening ? { y: -160, scale: 1, zIndex: 30 } : { y: 0, scale: 0.95 }}
               transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
-              className="absolute inset-x-3 top-3 bottom-3 bg-gradient-to-b from-[#1C1C1C] to-[#0F0F0 F] border border-gold/40 rounded-lg p-6 flex flex-col items-center justify-center text-center shadow-2xl z-10"
+              className="absolute inset-x-3 top-3 bottom-3 bg-gradient-to-b from-[#1C1C1C] to-[#0F0F0F] border border-gold/40 rounded-lg p-6 flex flex-col items-center justify-center text-center shadow-2xl z-10"
             >
               <div className="w-10 h-10 rounded-full border border-gold/40 flex items-center justify-center text-gold text-xl font-cinzel mb-2">
                 ✝
               </div>
               <p className="text-[10px] uppercase tracking-[0.25em] text-gold font-cinzel">You are cordially invited</p>
-              <h3 className="font-cinzel text-xl text-gold-gradient font-bold my-1">Jeffin Jestin</h3>
+              <h3 className="font-cinzel text-xl text-gold-gradient font-bold my-1">Jeffin Jestine</h3>
               <p className="text-xs text-grayText font-garamond italic">Joined in Faith & Grace</p>
               <div className="w-12 h-[1px] bg-gold/30 my-2" />
               <p className="text-[11px] text-gray-400 font-poppins">Click to view celebration details</p>

@@ -8,8 +8,8 @@ export default function Parents() {
       title: "Loving Parents",
       icon: Heart,
       members: [
-        { role: "Father", name: "Jestin Joy" },
-        { role: "Mother", name: "Silpa Jestin" },
+        { role: "Father", name: "Jestine Joy" },
+        { role: "Mother", name: "Silpa Jestine" },
       ],
       description: "Blessed with the gift of parenthood and guiding Jeffin in faith & love."
     },
@@ -26,8 +26,8 @@ export default function Parents() {
       title: "Grandparents & Family",
       icon: Users,
       members: [
-        { role: "Paternal Grandparents", name: "Georgekutty & late Annie Georgekutty" },
-        { role: "Maternal Grandparents", name: "Shaji George. & Simi Shaji " },
+        { role: "Paternal Grandparents", name: "T K Joy & Lisamma Joy" },
+        { role: "Maternal Grandparents", name: "Shaji George & Simi Shaji" },
       ],
       description: "Surrounding baby Jeffin with prayers, ancestral blessing, and warmth."
     }
@@ -49,7 +49,7 @@ export default function Parents() {
             Guided by Grace & Love
           </h2>
           <p className="font-garamond italic text-grayText text-lg max-w-xl mx-auto">
-            Meet the family standing beside Jeffin Jestin on his holy baptismal day.
+            Meet the family standing beside Jeffin Jestine on his holy baptismal day.
           </p>
         </div>
 

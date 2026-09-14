@@ -3,8 +3,7 @@ import { motion } from 'framer-motion';
 import { MapPin, Navigation, Compass, Sparkles } from 'lucide-react';
 
 export default function Location() {
-  const mapAddress = "St. Mary's Cathedral, Marine Drive, Kochi, Kerala 682031";
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapAddress)}`;
+  const googleMapsUrl = "https://maps.app.goo.gl/5RXRbeBpRNMLD9qv8";
 
   return (
     <section id="location" className="py-20 px-4 relative">
@@ -21,7 +20,7 @@ export default function Location() {
             Church & Map Location
           </h2>
           <p className="font-garamond italic text-grayText text-lg max-w-xl mx-auto">
-            Find your way to celebrate with us at St. Mary's Cathedral.
+            Find your way to celebrate with us at St. Mary's Church Kalayanthani.
           </p>
         </div>
 
@@ -35,25 +34,33 @@ export default function Location() {
             className="lg:col-span-5 glass-card rounded-3xl p-8 border border-gold/30 flex flex-col justify-between"
           >
             <div>
-              <div className="w-12 h-12 rounded-2xl bg-gold/10 border border-gold/30 flex items-center justify-center mb-6">
-                <MapPin className="w-6 h-6 text-gold" />
+              <div className="w-full h-48 rounded-2xl overflow-hidden border border-gold/30 mb-6 relative group shadow-lg">
+                <img
+                  src="/images/st_marys_church_kalayanthani.png"
+                  alt="St. Mary's Church Kalayanthani"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+                <span className="absolute bottom-2.5 left-3 text-[11px] font-cinzel text-gold bg-black/70 backdrop-blur-md px-3 py-1 rounded-full border border-gold/30">
+                  St. Mary's Church Kalayanthani
+                </span>
               </div>
 
               <h3 className="font-cinzel text-2xl font-bold text-white mb-2">
-                St. Mary's Cathedral
+                St. Mary's Church
               </h3>
               <p className="text-gold text-xs font-cinzel uppercase tracking-widest mb-6">
-                Cathedral Basilica of Kochi
+                Kalayanthani
               </p>
 
               <div className="space-y-4 text-xs sm:text-sm text-grayText font-poppins mb-8">
                 <div className="flex items-start gap-3">
                   <Compass className="w-4 h-4 text-gold shrink-0 mt-0.5" />
-                  <span>Marine Drive, Broadway Junction, Kochi, Kerala 682031</span>
+                  <span>St. Mary's Church, Kalayanthani, Kerala</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <Navigation className="w-4 h-4 text-gold shrink-0 mt-0.5" />
-                  <span>Landmark: Opposite Marine Drive Promenade</span>
+                  <span>Landmark: Kalayanthani Town</span>
                 </div>
               </div>
             </div>
@@ -82,7 +89,7 @@ export default function Location() {
           >
             <iframe
               title="Baptism Location Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.0838183182885!2d76.2758!3d9.9790!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d507b5a83cd%3A0x2fa581ff25b29bc2!2sSt.%20Mary&#39;s%20Cathedral%20Basilica%2C%20Ernakulam!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=St.%20Mary's%20Church%20Kalayanthani&t=&z=15&ie=UTF8&iwloc=&output=embed"
               className="w-full h-full min-h-[380px] border-0 filter grayscale invert contrast-125 opacity-80 group-hover:opacity-100 transition-opacity duration-300"
               allowFullScreen=""
               loading="lazy"
@@ -90,7 +97,7 @@ export default function Location() {
             />
 
             <div className="absolute bottom-4 right-4 bg-black/80 backdrop-blur-md px-4 py-2 rounded-full border border-gold/40 text-[11px] text-gold font-cinzel">
-              📍 Kochi, Kerala
+              📍 Kalayanthani, Kerala
             </div>
           </motion.div>
 

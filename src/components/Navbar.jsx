@@ -44,7 +44,7 @@ export default function Navbar({ isPlayingMusic, toggleMusic, onReplayEnvelope }
           </div>
           <div className="flex flex-col">
             <span className="font-cinzel text-sm sm:text-base font-bold text-gold-gradient tracking-wider">
-              JEFFIN JESTIN
+              JEFFIN JESTINE
             </span>
             <span className="text-[10px] text-grayText font-garamond italic -mt-1 tracking-widest">
               Holy Baptism
