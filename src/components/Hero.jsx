@@ -47,12 +47,29 @@ export default function Hero({ onOpenRSVP, onReplayEnvelope }) {
           You are warmly invited to celebrate the Holy Baptism of
         </motion.p>
 
+        {/* Baby Portrait Frame */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.9, delay: 0.35 }}
+          className="relative my-3 group"
+        >
+          <div className="absolute -inset-2 bg-gradient-to-r from-gold/40 via-gold to-gold/40 rounded-full blur-md opacity-75 group-hover:opacity-100 transition-opacity" />
+          <div className="relative w-36 h-36 sm:w-44 sm:h-44 rounded-full border-2 border-gold/70 p-1.5 bg-[#121212] shadow-gold-glow overflow-hidden mx-auto">
+            <img
+              src={`${import.meta.env.BASE_URL}images/baby_portrait.png`}
+              alt="Baby Jeffin Jestine"
+              className="w-full h-full object-cover rounded-full group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+        </motion.div>
+
         {/* Baby Name Banner */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="relative my-2 px-6 py-4"
+          className="relative my-2 px-6 py-2"
         >
           <div className="shimmer-line w-3/4 mx-auto mb-4" />
           <h1 className="font-cinzel text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-gold-gradient drop-shadow-2xl">
